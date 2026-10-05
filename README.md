@@ -8,7 +8,7 @@ boot_start:
     mov ds, ax 
     mov gs, ax 
     mov fs, ax 
-    mov sp, 0x7C00                 
+    mov sp, 0x9000                 
 
     mov di, 0x4000            
     mov cx, 256                
